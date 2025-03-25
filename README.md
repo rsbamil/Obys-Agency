@@ -1,0 +1,1 @@
+This repository contains the source code for a clone of the Obys Agency website. The goal is to replicate the user interface and experience, ensuring that the clone is visually similar and functional, using front-end technologies. This is a personal project for educational purposes, and all rights to the original Obys Agency website belong to its respective owners.
