@@ -216,15 +216,129 @@ body{
 #page3{
     min-height: 100vh;
     width: 100%;
-    background-color: rgb(133, 128, 128);
     position: relative;
+    padding: 15vh ;
+    margin-bottom: 20vh;
+    margin-top: 25vh;
+}
+#page3 h1{
+    font-size: 7vw;
+    text-transform: uppercase;
+    position: relative;
+    margin-left: 28vw;
+}
+#page3 h1::before{
+    content:"03";
+    position: absolute;
+    font-size: 3vw;
+    font-family: "silk serif";
+    font-weight: 100;
+    left: -15%;
+    top: 12%;
+}
+#page3 .underline{
+    margin-left: 28vw;
+}
+#image-div-container{
+    padding: 1vw;
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 8vw;
+}
+.img-div{
+    height: 38vw;
+    width: 27vw;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    margin: 2vw;
+}
+.img-div:nth-child(1){
+    height: 30vw;
+    width: 22vw;
+}
+.img-div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.page3-circle1{
+    border-radius: 50%;
+    height: 18vw;
+    width: 18vw;
+    border: 2px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 19.5vw;
+    margin-left: 5vw;
+}
+.page3-circle1 svg{
+    height: 30%;
+}
+.page3-circle2{
+    border-radius: 50%;
+    height: 18vw;
+    width: 18vw;
+    border: 2px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 19.5vw;
+
+}
+.page3-circle2 svg{
+    height: 30%;
+    rotate: -90deg;
+}
+.circle-in{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    scale: 0;
+    border-radius: 50%;
+    transition: all ease 0.3s;
+
+}
+.circle-in p{
+    font-size: 0.8vw;
+    color: black;
+    text-align: center;
+    width: 80%;
+    font-weight: 500;
+    scale: 0;
+    transition: all ease 0.3s;
+    transition-delay: 0.3s;
+}
+.page3-circle1:hover .circle-in{
+    scale: 1;
+}
+.page3-circle1:hover p{
+    scale: 1;
+}
+.page3-circle2:hover .circle-in{
+    scale: 1;
+}
+.page3-circle2:hover p{
+    scale: 1;
 }
 #page4{
     min-height: 100vh;
     width: 100%;
     position: relative;
     padding: 7vh 0;
-
+    margin-top: 15vw;
 }
 #page4-content{
     width: 72vw;
@@ -236,7 +350,7 @@ body{
     position: relative;
 }
 #page4-content h1::before{
-    content:"03";
+    content:"04";
     position: absolute;
     font-size: 3vw;
     font-family: "silk serif";
@@ -360,6 +474,7 @@ body{
     position: relative;
     padding-left: 28vw;
     padding-right: 2vw;
+    margin-top: 20vw;
 }
 
 #footer h1{

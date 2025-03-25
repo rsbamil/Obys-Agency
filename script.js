@@ -109,3 +109,12 @@ function cursorAnimation() {
 }
 cursorAnimation();
 locomotiveAnimation();
+
+function sheryAnimation() {
+  Shery.imageEffect(".img-div", {
+    style: 5,
+    gooey: true,
+  });
+}
+
+sheryAnimation();
